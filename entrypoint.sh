@@ -3,6 +3,7 @@
 
 yum groupinstall 'Development Tools'
 yum install zlib-devel
+yum install -y python3-devel.x86_64
 # CLI arguments
 PY_VERSIONS=$1
 BUILD_REQUIREMENTS=$2
