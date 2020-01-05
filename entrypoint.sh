@@ -1,8 +1,8 @@
 #!/bin/bash
 #set -e -x
 
-sudo yum groupinstall 'Development Tools'
-sudo yum install zlib-devel
+yum groupinstall 'Development Tools'
+yum install zlib-devel
 # CLI arguments
 PY_VERSIONS=$1
 BUILD_REQUIREMENTS=$2
